@@ -11,12 +11,12 @@
     	
     	<properties>
     		<property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
-    		<property name="jakarta.persistence.jdbc.url" value=""/>
-    		<property name="jakarta.persistence.jdbc.user" value=""/>
-    		<property name="jakarta.persistence.jdbc.password" value=""/>
+    		<property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/restaurante"/>
+    		<property name="jakarta.persistence.jdbc.user" value="root"/>
+    		<property name="jakarta.persistence.jdbc.password" value="gtHDPal1"/>
     	
     		<property name="hibernate.show_sql" value="true"/>
-    		<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5Dialect"/>
+    		<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
     	</properties>
     	
     </persistence-unit>
